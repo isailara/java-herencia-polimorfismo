@@ -5,9 +5,11 @@ abstract class Figure{
 
    private static int figuresCreated;
    private final String name;
+   //private int contador;
 
    protected Figure(String name){
        this.name=name;
+       figuresCreated++;
    }
 
    public abstract float getArea();
@@ -17,6 +19,7 @@ abstract class Figure{
        return name;
    }
    public static int getFiguresCreated(){
+
        return figuresCreated;
    }
 
