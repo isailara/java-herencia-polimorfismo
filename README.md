@@ -4,6 +4,8 @@
 
 @startuml
 
+
+
 abstract class Figure{
 
 
@@ -68,6 +70,8 @@ class Polygon extends Figure{
 +getPerimeter(): float;
 
 }
+
+
 
 
 @enduml
