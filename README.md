@@ -15,7 +15,7 @@ abstract class Figure{
 
 
 
-#Figure(name: String)
+    #Figure(name: String)
 
 
     +{abstract}getArea(): float;
@@ -39,10 +39,10 @@ abstract class Figure{
 class Circle extends Figure{
 
 
-+getArea(): float;
-
-
-+getPerimeter(): float;
+    +getArea(): float;
+    
+    
+    +getPerimeter(): float;
 
 
 }
@@ -52,10 +52,10 @@ class Circle extends Figure{
 class Rectangle extends Figure{
 
 
-+getArea(): float;
-
-
-+getPerimeter(): float;
+    +getArea(): float;
+    
+    
+    +getPerimeter(): float;
 
 }
 
@@ -64,10 +64,10 @@ class Rectangle extends Figure{
 class Polygon extends Figure{
 
 
-+getArea(): float;
-
-
-+getPerimeter(): float;
+    +getArea(): float;
+    
+    
+    +getPerimeter(): float;
 
 }
 
