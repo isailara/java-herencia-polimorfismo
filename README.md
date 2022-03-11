@@ -10,25 +10,25 @@ abstract class Figure{
 
 
 
--{static} figuresCreated: int;
--{final} name: String;
+    -{static} figuresCreated: int;
+    -{final} name: String;
 
 
 
 #Figure(name: String)
 
 
-+{abstract}getArea(): float;
-
-
-+{abstract}getPerimeter(): float;
-
-
-
-+{final}getName(): String;
-
-
-+{static}getFiguresCreated(): int;
+    +{abstract}getArea(): float;
+    
+    
+    +{abstract}getPerimeter(): float;
+    
+    
+    
+    +{final}getName(): String;
+    
+    
+    +{static}getFiguresCreated(): int;
 
 
 
