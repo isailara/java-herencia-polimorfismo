@@ -48,14 +48,20 @@ class Circle extends Figure{
 
 
 class Rectangle extends Figure{
+
 +getArea(): float;
+
 +getPerimeter(): float;
+
 }
 
 
 
 class Polygon extends Figure{
+
 +getArea(): float;
+
 +getPerimeter(): float;
 }
+
 @enduml
