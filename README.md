@@ -14,12 +14,18 @@ abstract class Figure{
 
 
 #Figure(name: String)
+
+
 +{abstract}getArea(): float;
+
+
 +{abstract}getPerimeter(): float;
 
 
 
 +{final}getName(): String;
+
+
 +{static}getFiguresCreated(): int;
 
 
@@ -29,8 +35,14 @@ abstract class Figure{
 
 
 class Circle extends Figure{
+
+
 +getArea(): float;
+
+
 +getPerimeter(): float;
+
+
 }
 
 
