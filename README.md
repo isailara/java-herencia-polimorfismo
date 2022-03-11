@@ -49,7 +49,9 @@ class Circle extends Figure{
 
 class Rectangle extends Figure{
 
+
 +getArea(): float;
+
 
 +getPerimeter(): float;
 
@@ -59,9 +61,13 @@ class Rectangle extends Figure{
 
 class Polygon extends Figure{
 
+
 +getArea(): float;
 
+
 +getPerimeter(): float;
+
 }
+
 
 @enduml
