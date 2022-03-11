@@ -14,7 +14,6 @@ abstract class Figure{
     -{final} name: String;
 
 
-
     #Figure(name: String)
 
 
